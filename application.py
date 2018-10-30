@@ -17,6 +17,6 @@ def start_skill():
 
 @ask.intent('GetNewFactIntent')
 def intent():
-    foo = ['Thiruvalla is a beautiful city', 'Thiruvalla is a very developed city', 'Thiruvalla is good', 'Thiruvalla is very calm','Thiruvalla is a peaceful city']
+    foo = ['Kerala is a state on the southwestern, Malabar Coast of India','Kerala is spread over 38,863 square km','Kerala is divided into 14 districts with the capital being Thiruvananthapuram','Malayalam is the most widely spoken language ','The Chera Dynasty was the first prominent kingdom based in Kerala','it is bordered by Karnataka to the north and northeast, Tamil Nadu to the east and south, and the Lakshadweep Sea to the west']
     text = 'Hello, '+random.choice(foo)
     return statement(text)
